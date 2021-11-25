@@ -10,19 +10,19 @@ pipeline {
 
     }
 
-//     agent any 
+    agent any 
 
-//     stages { 
+    stages { 
 
-//         stage('Cloning our Git') { 
+        // stage('Cloning our Git') { 
 
-//             steps { 
+        //     steps { 
 
-//                 git 'https://github.com/mandeeps-cloud/kaniko.git' 
+        //         git 'https://github.com/mandeeps-cloud/kaniko.git' 
 
-//             }
+        //     }
 
-//         } 
+        // } 
 
         stage('Building our image') { 
 
@@ -67,4 +67,5 @@ pipeline {
         } 
 
     }
+
 }
