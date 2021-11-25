@@ -18,7 +18,7 @@ pipeline {
 
             steps { 
 
-                git 'https://github.com/YourGithubAccount/YourGithubRepository.git' 
+                git 'https://github.com/mandeeps-cloud/kaniko.git' 
 
             }
 
